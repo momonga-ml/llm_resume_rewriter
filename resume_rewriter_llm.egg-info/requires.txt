@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+python-dotenv
+langchain
+langchain-openai
+python-docx
+pypdf
+gradio
+
+[test]
+pytest
+pytest-asyncio
+pytest-mock
