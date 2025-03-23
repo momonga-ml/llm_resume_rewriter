@@ -1,8 +1,6 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
-from app.models.resume import OptimizationRequest, OptimizationResponse, Resume, JobDescription
+from app.models.resume import OptimizationRequest, OptimizationResponse, Resume
 from app.services.resume_optimizer import ResumeOptimizer
-from typing import List
-import io
 
 router = APIRouter(
     prefix="/api/resume",

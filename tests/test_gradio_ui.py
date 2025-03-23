@@ -1,10 +1,6 @@
 import pytest
-import os
-import gradio as gr
-from pathlib import Path
 from app.gradio_ui import process_resume
 from app.models.resume import Resume, ResumeSection
-import tempfile
 from unittest.mock import MagicMock, patch
 
 # Create test fixtures

@@ -4,7 +4,6 @@ from app.api.resume_router import router as resume_router
 from app.gradio_ui import create_ui
 import gradio as gr
 from dotenv import load_dotenv
-import os
 
 # Load environment variables
 load_dotenv()

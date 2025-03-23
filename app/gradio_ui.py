@@ -2,8 +2,6 @@ import gradio as gr
 from app.utils.document_parser import DocumentParser
 from app.services.resume_optimizer import ResumeOptimizer
 from app.models.resume import JobDescription
-import tempfile
-import os
 import logging
 
 # Configure logging
